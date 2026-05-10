@@ -1,0 +1,19 @@
+# Menjalankan skrip ETL pipeline
+python3 main.py
+\
+python main.py
+
+# Menjalankan unit test pada folder tests
+pytest tests/ -v  
+\
+python3 -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+coverage report -m
+
+# Url Google Sheets:
+https://docs.google.com/spreadsheets/d/15Rgqw0n-wWYLz6DwCggKWe1YLNAiJo_OoQ6aemPHhDY
+
+# (Optional) Menjalankan setup_postgre.py, untuk membuat database dan memberikan user 'developer' akses ke database (db_fashion)
+python3 setup_postgre.py

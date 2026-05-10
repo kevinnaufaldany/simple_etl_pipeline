@@ -36,12 +36,12 @@ env/
 
 # Testing
 .pytest_cache/
-.coverage
+# .coverage
 htmlcov/
 .tox/
 
 # Secrets & Credentials
-client_secret.json
+# client_secret.json
 credentials.json
 config.local.py
 
